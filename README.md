@@ -1,62 +1,110 @@
 # Electro-optics-Project
 # Modern Optics and Electro-Optics Final Project
+This project explores advanced concepts in optics, such as light propagation, polarization, lens modeling, and Fourier analysis, using MATLAB. It includes theoretical explanations, simulations, and visualizations to analyze various optical phenomena.
 
-This repository contains the implementation of solutions for the final project in the **Modern Optics and Electro-Optics** course. The project involves theoretical and practical exploration of advanced concepts in optics, including light propagation, lens modeling, and Fourier transforms.
+## Table of Contents
+- [Overview](#overview)
+- [Technologies Used](#technologies-used)
+- [File Structure](#file-structure)
+- [How to Run the Project](#how-to-run-the-project)
+- [Results](#results)
+- [License](#license)
+- [Contributors](#contributors)
 
-## Project Overview
+---
 
-The project is divided into the following sections:
-1. **Question 1**: Analysis of light transmission through polarizers and glass plates, exploring conditions for polarization and Brewster angles.
-2. **Question 2**: Modeling and simulating lens behavior with wavelength-dependent refractive indices, including progression of rays through lenses.
-3. **Question 3**: Fourier and Fresnel transformations, focusing on analyzing circular apertures and simulating diffraction patterns.
+## Overview
+### Question 1: Polarization and Brewster Angles
+- **Objective**: Analyze light transmission through polarizers and glass plates to determine conditions for polarization and calculate Brewster angles.
+- **Key Steps**:
+  1. Simulate light interaction with a polarizer.
+  2. Calculate transmission coefficients based on angle and refractive index.
 
-Each section includes MATLAB scripts that demonstrate the mathematical modeling, simulation, and visualization of results.
+### Question 2: Lens Modeling
+- **Objective**: Model and simulate wavelength-dependent lens behavior using ray tracing and ABCD matrices.
+- **Key Steps**:
+  1. Simulate lens focal lengths based on refractive indices.
+  2. Analyze ray progression through the optical system.
 
-## Structure
-Electro-optics part A.pdf # Answers and code for Part A ├── Electro-optics part B.pdf # Answers and code for Part B ├── Electro-optics_part1-Instructions.pdf # Instructions for Part 1 ├── Electro-optics_part2-Instructions.pdf # Instructions for Part 2 ├── Electro-optics_Q1.m # MATLAB script for Question 1 ├── Electro-optics_Q2.m # MATLAB script for Question 2 ├── Electro-optics_Q3.m # MATLAB script for Question 3 ├── circ.m # Function to generate circular apertures ├── propFresnel.m # Function for Fresnel propagation ├── F.m # Custom Fourier transform function ├── iF.m # Custom inverse Fourier transform function ├── jinc.m # Jinc function for Fraunhofer diffraction ├── LICENSE # License file for the repository └── README.md # Documentation file
+### Question 3: Fourier and Fresnel Transformations
+- **Objective**: Perform diffraction and aperture analysis using Fourier transforms and Fresnel propagation.
+- **Key Steps**:
+  1. Simulate circular apertures and diffraction patterns.
+  2. Analyze intensity distributions using custom MATLAB functions.
 
-## How to Use
+---
 
-1. **Setup**: Ensure MATLAB is installed on your system.
-2. **Run Scripts**:
-   - Each question has a corresponding MATLAB script.
-   - For example, to run the solution for Question 1:
-     ```matlab
-     run('Electro-optics_Q1.m')
-     ```
-3. **Visualization**:
-   - The scripts generate plots and visualizations, such as transfer coefficients, diffraction patterns, and ray progression through lenses.
+## Technologies Used
+- **Language**: MATLAB
+- **Tools**: Fourier Transform, Fresnel Propagation, ABCD Matrices
+- **Visualization**: Surface Plots, Heatmaps, Custom Visualizations
+- **Mathematical Models**: Polarization, Ray Tracing, Diffraction Analysis
 
-## Key Features
+---
 
-- **Polarization Analysis**: Simulations of light transmission through polarizers and calculation of Brewster angles.
-- **Lens Modeling**: Using ABCD matrices and wavelength-dependent refractive indices for lens simulations.
-- **Fourier Analysis**: Implementation of Fourier transforms for diffraction and aperture analysis.
-- **Custom Functions**: Functions for circular aperture generation (`circ.m`), Fresnel propagation (`propFresnel.m`), and more.
+## File Structure
+```plaintext
+.
+├── Electro-optics part A.pdf             # Answers and code for Part A
+├── Electro-optics part B.pdf             # Answers and code for Part B
+├── Electro-optics_part1-Instructions.pdf # Instructions for Part 1
+├── Electro-optics_part2-Instructions.pdf # Instructions for Part 2
+├── Electro-optics_Q1.m                   # MATLAB script for Question 1
+├── Electro-optics_Q2.m                   # MATLAB script for Question 2
+├── Electro-optics_Q3.m                   # MATLAB script for Question 3
+├── circ.m                                # Function to generate circular apertures
+├── propFresnel.m                         # Function for Fresnel propagation
+├── F.m                                   # Custom Fourier transform function
+├── iF.m                                  # Custom inverse Fourier transform function
+├── jinc.m                                # Jinc function for Fraunhofer diffraction
+├── LICENSE                               # License file for the repository
+└── README.md                             # Project documentation
+```
 
-## Topics
+## How to Run the Project
 
-- MATLAB  
-- Optics  
-- Fourier Transform  
-- Polarization  
-- Lens Modeling  
-- Fresnel Propagation  
-- Diffraction Patterns  
-- ABCD Matrix  
-- Light Propagation  
-- Electro-Optics  
-- Computational Physics  
-- Wave Optics  
-- Photonics  
-- Refractive Index Modeling  
-- Advanced Visualization  
-- Numerical Simulation  
+### Prerequisites
+- MATLAB installed on your system.
 
-## Authors
+### Instructions
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/12danielLL/electro-optics-project.git
+   cd electro-optics-project
+run('Electro-optics_Q1.m')
+run('Electro-optics_Q2.m')
+run('Electro-optics_Q3.m')
 
+## Visualize the Results
+The scripts generate various plots and visualizations, such as diffraction patterns, ray tracing, and intensity distributions.
+
+---
+
+## Results
+
+### Question 1: Polarization Analysis
+- Simulated transmission coefficients for various polarizer angles.
+- Calculated Brewster angle for optimal polarization.
+
+### Question 2: Lens Behavior
+- Modeled lens focal lengths for multiple wavelengths.
+- Simulated ray tracing through lenses, showing clear progression.
+
+### Question 3: Diffraction and Transformations
+- Generated circular aperture diffraction patterns.
+- Visualized intensity distributions using Fourier and Fresnel transforms.
+
+---
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+## Contributors
 - **Daniel Brooker**  
-  Course: Introduction to Modern Optics and Electro-Optics  
+  GitHub: [12danielLL](https://github.com/12danielLL)
+
 
 ## Acknowledgments
 
