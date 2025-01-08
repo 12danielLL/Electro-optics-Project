@@ -1,5 +1,4 @@
-# Electro-optics-Project
-# Modern Optics and Electro-Optics Final Project
+# Optics and Electro-Optics Final Project
 This project explores advanced concepts in optics, such as light propagation, polarization, lens modeling, and Fourier analysis, using MATLAB. It includes theoretical explanations, simulations, and visualizations to analyze various optical phenomena.
 
 ## Table of Contents
