@@ -71,9 +71,9 @@ This project explores advanced concepts in optics, such as light propagation, po
    ```bash
    git clone https://github.com/12danielLL/electro-optics-project.git
    cd electro-optics-project
-run('Electro-optics_Q1.m')
-run('Electro-optics_Q2.m')
-run('Electro-optics_Q3.m')
+- run('Electro-optics_Q1.m')
+- run('Electro-optics_Q2.m')
+- run('Electro-optics_Q3.m')
 
 ## Visualize the Results
 The scripts generate various plots and visualizations, such as diffraction patterns, ray tracing, and intensity distributions.
